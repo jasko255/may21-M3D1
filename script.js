@@ -77,6 +77,15 @@ console.log(calc5(77, 47));
 // 6) 
 // Create a function that creates and returns the specified number of copies of a given string (positive number).
 
+let calc6 = function (str){
+    for (let i = 0; i < str.length; i++){
+       console.log(str);
+          }
+   
+}
+
+calc6('string');
+
 // 7)
 // Create a function that returns the city name of a given string, if the string begins with "Los" or "New", otherwise returns blank.
 
